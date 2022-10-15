@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img_path = "mermer-elazig-visne.jpg"
+img_path = "images/mermer-elazig-visne.jpg"
 
 img = cv2.imread(img_path)
 

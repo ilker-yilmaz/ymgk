@@ -6,7 +6,7 @@ import pandas as pd
 
 # reading csv file with pandas and giving names to each column
 index = ["color", "color_name", "hex", "R", "G", "B"]
-csv = pd.read_csv('colors.csv', names=index, header=None)
+csv = pd.read_csv('datasets/colors.csv', names=index, header=None)
 
 # function to calculate minimum distance from all colors and get the most matching color
 def getColorName(R, G, B):
@@ -29,7 +29,7 @@ def draw_function(event, x, y, flags, params):
         r = int(r)
 
 # reading image
-img = cv2.imread('mermer-elazig-visne.jpg')
+img = cv2.imread('images/mermer-elazig-visne.jpg')
 cv2.namedWindow('image')
 cv2.setMouseCallback('image', draw_function)
 

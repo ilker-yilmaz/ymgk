@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random as rnd
 import statistics
 
-img_path = "mermer-elazig-visne.jpg"
+img_path = "images/mermer-elazig-visne.jpg"
 
 img = cv2.imread(img_path)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -34,7 +34,7 @@ print("Örneğimizin rgb kodu : ", int(statistics.mean(r)), int(statistics.mean(
 import pandas as pd
 
 index = ["color", "color_name", "hex", "R", "G", "B"]
-csv = pd.read_csv('colors.csv', names=index, header=None)
+csv = pd.read_csv('datasets/colors.csv', names=index, header=None)
 
 
 def getColorName(R, G, B):

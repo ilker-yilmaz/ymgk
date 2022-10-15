@@ -30,7 +30,7 @@ def non_max_suppression(data, win):
 
 
 # start calulcation
-gray_image = cv2.imread('mermer-elazig-visne.jpg', 0)
+gray_image = cv2.imread('images/catlak.jpg', 0)
 
 with_nmsup = True  # apply non-maximal suppression
 fudgefactor = 1.3  # with this threshold you can play a little bit
