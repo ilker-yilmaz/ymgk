@@ -1,11 +1,11 @@
 # ymgk
 Veri Seti Kaynaklar:
 
-1- en yaygın kullanılan mermer veri setlerinden biri: https://www.kaggle.com/datasets/wardaddy24/marble-surface-anomaly-detection
+1- en yaygın kullanılan mermer veri setlerinden biri: [marble-surface-anomaly-detection](https://www.kaggle.com/datasets/wardaddy24/marble-surface-anomaly-detection)
 
-2- bir diğeri de buna benzer olan veri seti: https://www.kaggle.com/datasets/wardaddy24/marble-surface-anomaly-detection-2
+2- bir diğeri de buna benzer olan veri seti: [marble-surface-anomaly-detection-2](https://www.kaggle.com/datasets/wardaddy24/marble-surface-anomaly-detection-2)
 
-3- burada da çatlak ile ilgili veri seti mevcut: https://github.com/MachineLearningVisionRG/mcs-dataset
+3- burada da çatlak ile ilgili veri seti mevcut: [mcs-dataset](https://github.com/MachineLearningVisionRG/mcs-dataset)
 
 4- ATILIM ÜNİVERSİTESİ - Yapay Zeka ile Bitirme Projesi: Konu ve Veri Seti Seçimi 7 Mermer Tipini Tahmin Etme: [izle](https://www.youtube.com/watch?v=63QFHD64wWk) 
 Bu Veri Setini Hazırladıkları için teşekkürler: 
