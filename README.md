@@ -9,10 +9,10 @@ bir diğeri de buna benzer olan veri seti: https://www.kaggle.com/datasets/warda
 
 ATILIM ÜNİVERSİTESİ - Yapay Zeka ile Bitirme Projesi: Konu ve Veri Seti Seçimi 7 Mermer Tipini Tahmin Etme: https://www.youtube.com/watch?v=63QFHD64wWk
 Bu Veri Setini Hazırladıkları için teşekkürler: 
-[Mert İhsan US](https://www.linkedin.com/in/mertihsanus/)
-[Bengisu Doğanay](https://www.linkedin.com/in/bengisu-doğanay/)
-[Metehan Uzun](https://www.linkedin.com/in/metehanuzun/) 
-[Göksu Karaca](https://www.linkedin.com/in/göksu-karaca-205748182/)
+[Mert İhsan US](https://www.linkedin.com/in/mertihsanus/),
+[Bengisu Doğanay](https://www.linkedin.com/in/bengisu-doğanay/),
+[Metehan Uzun](https://www.linkedin.com/in/metehanuzun/) ,
+[Göksu Karaca](https://www.linkedin.com/in/göksu-karaca-205748182/),
 
 
 Mermer kalite sınıflandırması için evrişimli bir sinir ağı modeli (makale): https://link.springer.com/article/10.1007/s42452-020-03520-5
