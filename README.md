@@ -7,7 +7,7 @@ Veri Seti Kaynaklar:
 
 3- burada da çatlak ile ilgili veri seti mevcut: https://github.com/MachineLearningVisionRG/mcs-dataset
 
-4- ATILIM ÜNİVERSİTESİ - Yapay Zeka ile Bitirme Projesi: Konu ve Veri Seti Seçimi 7 Mermer Tipini Tahmin Etme: https://www.youtube.com/watch?v=63QFHD64wWk
+4- ATILIM ÜNİVERSİTESİ - Yapay Zeka ile Bitirme Projesi: Konu ve Veri Seti Seçimi 7 Mermer Tipini Tahmin Etme: [izle](https://www.youtube.com/watch?v=63QFHD64wWk) 
 Bu Veri Setini Hazırladıkları için teşekkürler: 
 [Mert İhsan US](https://www.linkedin.com/in/mertihsanus/),
 [Bengisu Doğanay](https://www.linkedin.com/in/bengisu-doğanay/),
