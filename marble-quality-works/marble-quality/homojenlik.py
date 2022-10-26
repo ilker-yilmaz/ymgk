@@ -47,3 +47,4 @@ plt.show()
 
 # save image to desktop
 cv2.imwrite('mermer-elazig-visne-sonuc.jpg', img)
+
