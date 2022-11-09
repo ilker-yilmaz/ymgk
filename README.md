@@ -21,4 +21,5 @@ Bu Veri Setini Hazırladıkları için teşekkürler:
 
 Bazı Makaleler ve Kaynaklar:
 1- [Mermer kalite sınıflandırması için evrişimli bir sinir ağı modeli (makale):](https://link.springer.com/article/10.1007/s42452-020-03520-5)
+
 2- [Fırat Kalkınma Ajansı Mermer Raporu](https://www.kalkinmakutuphanesi.gov.tr/assets/upload/dosyalar/elazig-mermer-raporu.pdf)
