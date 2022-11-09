@@ -9,7 +9,7 @@ Veri Seti Kaynaklar:
 
 4- ATILIM ÜNİVERSİTESİ - Yapay Zeka ile Bitirme Projesi: Konu ve Veri Seti Seçimi 7 Mermer Tipini Tahmin Etme: [izle](https://www.youtube.com/watch?v=63QFHD64wWk) 
 
-[Proje Hakkında Ayrıntılı Bilgi ve Kaynak Kodlar : ](https://github.com/usmertihsan/Marble-Classification-Using-Deep-Learning-)
+[Proje Hakkında Ayrıntılı Bilgi ve Kaynak Kodlar](https://github.com/usmertihsan/Marble-Classification-Using-Deep-Learning-)
 
 [Veri Setine Ulaşın](https://drive.google.com/file/d/1kG6zhk3GXmjIMxaRCp06ZoWWIn-v4goU/view?usp=sharing)
 
