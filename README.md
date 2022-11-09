@@ -1,5 +1,5 @@
 # ymgk
-Veri Seti Kaynaklar:
+## Veri Seti Kaynaklar:
 
 1- en yaygın kullanılan mermer veri setlerinden biri: [marble-surface-anomaly-detection](https://www.kaggle.com/datasets/wardaddy24/marble-surface-anomaly-detection)
 
@@ -19,7 +19,13 @@ Bu Veri Setini Hazırladıkları için teşekkürler:
 [Metehan Uzun](https://www.linkedin.com/in/metehanuzun/) ,
 [Göksu Karaca](https://www.linkedin.com/in/göksu-karaca-205748182/)
 
-Bazı Makaleler ve Kaynaklar:
+
+## Bazı Makaleler ve Kaynaklar:
+
 1- [Mermer kalite sınıflandırması için evrişimli bir sinir ağı modeli (makale):](https://link.springer.com/article/10.1007/s42452-020-03520-5)
+
+2- [Yerel İkili Örüntü Tabanlı Uç Öğrenme Yaklaşımı Kullanan Akıllı Örüntü Tanıma Sistemi ile Mermer Sınıflanırma Uygulaması - ERHAN TURAN](https://openaccess.firat.edu.tr/xmlui/bitstream/handle/11508/18367/523235.pdf?sequence=1&isAllowed=n)
+
+3 - [Mermer işlemede kalite sınıflandırması için evrişimsel sinir ağı modeli](https://dergipark.org.tr/tr/download/article-file/1051978)
 
 2- [Fırat Kalkınma Ajansı Mermer Raporu](https://www.kalkinmakutuphanesi.gov.tr/assets/upload/dosyalar/elazig-mermer-raporu.pdf)
