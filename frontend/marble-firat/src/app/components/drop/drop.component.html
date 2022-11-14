@@ -1,0 +1,33 @@
+<body>
+  <div class="drop-zone">
+    <span class="drop-zone__prompt"
+      >Görüntüyü buraya sürükleyin veya yüklemek için tıklayın</span
+    >
+    <input
+      type="file"
+      name="myFile"
+      accept=".jpg,.png,.jpeg"
+      id="image-input"
+      (change)="selectFile($event)"
+      class="drop-zone__input"
+    />
+  </div>
+  <br />
+  <div *ngIf="isHidden" class="row">
+    <!-- seçilen görüntünün gösterilmesi -->
+    <div class="col-md-6">
+      <img
+        [src]="localUrl"
+        alt="image"
+        class="img-thumbnail"
+        style="width: 100%; height: 100%"
+      />
+    </div>
+    <div class="col-md-12">
+      <div class="alert alert-info" role="alert">
+        <strong>Görüntü Seçme İşlemi Başarılı, Çok Yakında Hizmetinizdeyiz...</strong>
+      </div>
+    </div>
+  </div>
+</body>
+<br />

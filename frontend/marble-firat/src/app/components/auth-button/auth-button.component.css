@@ -1,0 +1,34 @@
+.myButton {
+  background: #0080ff;
+  width: 100%;
+  border: 0;
+  outline: unset;
+  padding: 10px 0px;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 8px;
+  width: auto;
+  background: #4a960e;
+  border-radius: 0;
+  padding: 9px 50px;
+}
+.logOutButton {
+  background: #0080ff;
+  width: 100%;
+  border: 0;
+  outline: unset;
+  padding: 10px 0px;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 8px;
+  width: auto;
+  background: #f50202;
+  border-radius: 0;
+  padding: 9px 50px;
+}
+.userInfo {
+  color: #4a960e;
+  font-size: large;
+}

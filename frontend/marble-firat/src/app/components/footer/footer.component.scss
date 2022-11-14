@@ -1,0 +1,108 @@
+.footer_menu{
+    margin: 0rem 0;
+    padding: 1rem 0rem;
+    background: #05826b;
+    .footer_menu_li{
+        h2{
+            color: #fff;
+            
+            font-size: 20px;
+            margin-bottom: 21px;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                margin-bottom: 14px;
+                a{
+                    color: #fff !important;
+                    font-size: 18px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.get_fill_number_infor .media_custom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+    min-width: 27%;
+    text-align: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.get_fill_number_infor .media_custom i {
+    color: #fff;
+    font-size: 28px;
+    flex: 0 0 100%;
+    position: relative;
+    top: 0;
+}
+.get_fill_number_infor .media_custom .media_body p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 26px;
+}
+.get_fill_number_infor .media_custom .media_body p a{
+    color: #fff;
+
+}
+
+.register_form{
+  margin-top: 2rem;
+  border-top: 1px solid #ffffff69;
+  padding: 25px 0px 0px 0px;
+    h3{
+        color: #fff;
+        
+        font-size: 28px;
+        margin-bottom: 21px;
+        text-align: left;
+    }
+    p{
+        color: #fff;
+        font-size: 17px;
+        margin-bottom: 21px;
+        text-align: left;
+    }
+    .form-group{
+        input{
+            padding: 11px 16px;
+        }
+        text-align: center;
+        button{
+           background: #0080ff;
+    width: 100%;
+    border: 0;
+    outline: unset;
+    padding: 10px 0px;
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 8px;
+    width: auto;
+    background: #4a960e;
+    border-radius: 0;
+    padding: 9px 50px;
+            
+        }
+    }
+}
+
+
+.register_form .form-group input {
+    padding: 11px 16px;
+      height: 53px;
+}
+
+body{
+      font-family: system-ui;
+}
+.footer_socil i {
+    flex: unset !important;
+    margin: 0px 10px;
+}
