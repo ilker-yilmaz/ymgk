@@ -45,8 +45,8 @@ import { FooterComponent } from './components/footer/footer.component';
 
     // Import the module into the application, with configuration
     AuthModule.forRoot({
-      domain: environment.API_URL_AUTH0_DOMAIN,
-      clientId: environment.API_URL_AUTH0_CLIENT_ID
+      domain: "ilker-blog.us.auth0.com",
+      clientId: "BrPFRE688i4jJ1o4OPlwxsmPgiiMxTcp"
     }),
   ],
   providers: [NgxImageCompressService],
