@@ -23,12 +23,14 @@
 <body style="background-color: #dfe9f5;">
 
   <div class="container jumbotron jumbotron-fluid ">
-      
-      <div class="m-3 d-flex justify-content-end">
-        <a class="me-2 profil" style="cursor:pointer; text-decoration: none; font-size:large; color:black;"><i class="fa-regular fa-user"></i> {{ user.get_full_name|title }}</a>
-        <a class="cikis" style="cursor:pointer; text-decoration: none; font-size:large; color:black;" href="{% url 'cikislar' %}"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
-      </div>
-    
+
+    <div class="m-3 d-flex justify-content-end">
+      <a class="me-2 profil" style="cursor:pointer; text-decoration: none; font-size:large; color:black;"><i
+          class="fa-regular fa-user"></i> {{ user.get_full_name|title }}</a>
+      <a class="cikis" style="cursor:pointer; text-decoration: none; font-size:large; color:black;"
+        href="{% url 'cikislar' %}"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+    </div>
+
     <div class="container bg-white">
       <h1 class="display-4 d-flex justify-content-center">Mermer Sınıflandırma</h1>
       <p class="lead text-capitalize d-flex justify-content-center">Bu program ile artık mermer sınıflamak çok kolay.
@@ -170,6 +172,12 @@
 
     </div>
 
+    <div class="container">
+      <footer class="py-3 my-4 bg-white">
+        <p class="text-center text-muted">© 2022 Kriptarium, Inc</p>
+      </footer>
+    </div>
+
 
   </div>
 
@@ -212,20 +220,20 @@
   </script>
 
   <script>
-    $( ".profil" ).mouseover(function() {
-      $("body").css("background-color","#b2bfcf");
+    $(".profil").mouseover(function () {
+      $("body").css("background-color", "#b2bfcf");
     });
 
-    $( ".profil" ).mouseleave(function() {
-      $("body").css("background-color","#dfe9f5");
+    $(".profil").mouseleave(function () {
+      $("body").css("background-color", "#dfe9f5");
     });
 
-    $( ".cikis" ).mouseover(function() {
-      $("body").css("background-color","#8c9caf");
+    $(".cikis").mouseover(function () {
+      $("body").css("background-color", "#8c9caf");
     });
 
-    $( ".cikis" ).mouseleave(function() {
-      $("body").css("background-color","#dfe9f5");
+    $(".cikis").mouseleave(function () {
+      $("body").css("background-color", "#dfe9f5");
     });
 
   </script>
