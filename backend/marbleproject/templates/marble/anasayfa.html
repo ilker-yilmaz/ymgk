@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap Example</title>
+  <title>MERMER ANALİZİ</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -50,9 +50,14 @@
           <hr>
           <button type="submit" class="btn btn-info">Resmi Kaydet</button>
         </form>
+        <h1>Tahminleriniz:</h1>
+          <ul>
+            {% for prediction in prediction %}
+              <li>{{ prediction }}</li>
+            {% endfor %}
+          </ul>
       </div>
-
-
+      
       <div class="col-6">
         <div class="accordion" id="myAccordion">
 
