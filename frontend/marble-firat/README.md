@@ -1,2 +1,0 @@
-# jpeg-firat-v1
- 
