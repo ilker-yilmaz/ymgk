@@ -24,6 +24,15 @@ Bu Veri Setini Hazırladıkları için teşekkürler:
 
 1 - [Mermer kalite sınıflandırması için evrişimli bir sinir ağı modeli / A convolutional neural network model for marble quality classification (makale):](https://link.springer.com/article/10.1007/s42452-020-03520-5)
 
+
+Please refer and cite to this study:
+
+https://dergipark.org.tr/tr/pub/gazimmfd/issue/58008/720041
+
+Karaali, İ , Eminağaoğlu, M . (2020). Mermer işlemede kalite sınıflandırması için evrişimsel sinir ağı modeli. 
+Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi, 36 (1), 347-358. DOI: 10.17341/gazimmfd.720041
+
+
 2 - [Yerel İkili Örüntü Tabanlı Uç Öğrenme Yaklaşımı Kullanan Akıllı Örüntü Tanıma Sistemi ile Mermer Sınıflanırma Uygulaması - ERHAN TURAN](https://openaccess.firat.edu.tr/xmlui/bitstream/handle/11508/18367/523235.pdf?sequence=1&isAllowed=n)
 
 3 - [Mermer işlemede kalite sınıflandırması için evrişimsel sinir ağı modeli (makale)](https://dergipark.org.tr/tr/download/article-file/1051978)
