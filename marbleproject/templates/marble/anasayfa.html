@@ -1,0 +1,165 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body style="background-color: #dfe9f5;">
+
+  <div class="container jumbotron jumbotron-fluid ">
+
+    <div class="m-3 d-flex justify-content-end">
+      <a class="me-2 profil" style="cursor:pointer; text-decoration: none; font-size:large; color:black;"><i
+          class="fa-regular fa-user"></i> {{ user.get_full_name|title }}</a>
+      <a class="cikis" style="cursor:pointer; text-decoration: none; font-size:large; color:black;"
+        href="{% url 'cikislar' %}"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+    </div>
+
+    <div class="container bg-white">
+      <h1 class="display-4 d-flex justify-content-center">Mermer Sınıflandırma</h1>
+      <p class="lead text-capitalize d-flex justify-content-center">Bu program ile artık mermer sınıflamak çok kolay.
+      </p>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-6">
+        <form method="post" enctype="multipart/form-data">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <input type="submit" value="Upload">
+        </form>
+
+      </div>
+
+
+      <div class="col-6">
+        <div class="accordion" id="myAccordion">
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content1">Tür Tespiti</button>
+            </h2>
+            <div id="content1" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+              <div class="accordion-body">
+                <img src="{{ images }}"><hr>
+                
+                Adı: {{ ad }}
+                
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content7">Çatlak Türü
+                Tespiti</button>
+            </h2>
+            <div id="content7" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+              <div class="accordion-body">
+                {{ sonuc_catlak_yuzde }}
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content8">Raporla</button>
+            </h2>
+            <div id="content8" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+              <div class="accordion-body">
+                <img src="{{ images }}"><hr>
+                
+                Adı: {{ ad }}
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    var selDiv = "";
+    var storedFiles = [];
+    $(document).ready(function () {
+      $("#img").on("change", handleFileSelect);
+      selDiv = $("#selectedBanner");
+    });
+
+    function handleFileSelect(e) {
+      var files = e.target.files;
+      var filesArr = Array.prototype.slice.call(files);
+      filesArr.forEach(function (f) {
+        if (!f.type.match("image.*")) {
+          return;
+        }
+        storedFiles.push(f);
+
+        var reader = new FileReader();
+        reader.onload = function (e) {
+
+          var html =
+            '<img src="' +
+            e.target.result +
+            "\" data-file='" +
+            f.name +
+            "alt='Category Image' height='224px' width='224px' >";
+          selDiv.html(html);
+        };
+        reader.readAsDataURL(f);
+
+
+      });
+    }
+  </script>
+
+  <script>
+    $(".profil").mouseover(function () {
+      $("body").css("background-color", "#b2bfcf");
+    });
+
+    $(".profil").mouseleave(function () {
+      $("body").css("background-color", "#dfe9f5");
+    });
+
+    $(".cikis").mouseover(function () {
+      $("body").css("background-color", "#8c9caf");
+    });
+
+    $(".cikis").mouseleave(function () {
+      $("body").css("background-color", "#dfe9f5");
+    });
+
+  </script>
+</body>
+
+</html>

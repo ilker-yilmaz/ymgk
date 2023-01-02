@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <title>Document</title>
+</head>
+<body style="background:url('/static/img/mermer.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; position: relative;">
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-4">
+
+            </div>
+            <div class="col-4 p-5 rounded" style="background-color: #eeecdf;">
+              <img src="/static/img/m.png" alt="Fırat Mermer" class="w-100">
+              <hr>
+                <form method="post">
+                  {% if error %}
+                    <div class="alert alert-danger">
+                      {{ error }}
+                    </div>
+                  {% endif %}
+                  {% csrf_token %}
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email" name="email" value="{{ email }}">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Kullanıcı Adı" name="username" value="{{ username }}">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Ad" name="firstname" value="{{ firstname }}">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Soyad" name="lastname" value="{{ lastname }}">
+                    </div>
+
+                    <div class="form-group">
+                      <input type="password" class="form-control" placeholder="Şifre" name="password">
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="password" class="form-control" placeholder="Şifre Tekrar" name="repassword">
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-outline-primary">Kayıt Ol</button>
+                    <a href="{% url 'giris' %}" class="btn btn-outline-success">Giriş Yap</a>
+                  </div>
+                  </form>
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
