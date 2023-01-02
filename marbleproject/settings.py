@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-f2=ud#742lbvja9yo9onkk^7e17li=78)yt2v2m9y1@nj5@&_m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['marble-firat.herokuapp.com','127.0.0.1','cyberworld.pythonanywhere.com','marbleanalysis.pythonanywhere.com']
+ALLOWED_HOSTS = ['marble-firat.herokuapp.com','127.0.0.1','cyberworld.pythonanywhere.com']
 
 
 # Application definition
