@@ -1,5 +1,10 @@
 # ymgk (Yazılım Mühendisliğinde Güncel Konular - 2022-2023 Güz Dönemi)
 
+# Proje Ekip Üyeleri
+- İlker Yılmaz
+- Ahmet Karakaya
+- Bünyamin Uçar
+
 ## Ekip Toplantıları
 [Toplantı 1 - youtube'da izle](https://www.youtube.com/watch?v=plbYwBUFs0Q)
 [Toplantı 2 - youtube'da izle](https://www.youtube.com/watch?v=xsiPq5BoaaI)
