@@ -12,7 +12,9 @@
 
 ## Paylaşılan Belgeler - Dokümanlar
 [Colab Üzerindeki Çalışmalarımız - Kullandığımız Verisetleri vs.](https://drive.google.com/drive/folders/1X3c-B45axihDZk2yJXXMznwrlFzItf7Y?usp=share_link)
+
 [Notion Sayfamız](https://ilkerylmaz.notion.site/YMGK-2022-BAHAR-f8d076b9f88d457e82e56ca4e591c494)
+
 [Proje Teslimi Belgeleri](https://drive.google.com/drive/folders/1w8hs1u8qykBe4tHFS2vdeULBTT85oRkS?usp=share_link)
 
 ## Veri Seti Kaynaklar:
