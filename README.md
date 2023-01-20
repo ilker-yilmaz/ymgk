@@ -1,5 +1,17 @@
-# ymgk
+# ymgk (Yazılım Mühendisliğinde Güncel Konular - 2022-2023 Güz Dönemi)
+
+## Ekip Toplantıları
+[Toplantı 1 - youtube'da izle](https://www.youtube.com/watch?v=plbYwBUFs0Q)
+[Toplantı 2 - youtube'da izle](https://www.youtube.com/watch?v=xsiPq5BoaaI)
+[Toplantı 3 - youtube'da izle]()
+
+## Paylaşılan Belgeler - Dokümanlar
+[Colab Üzerindeki Çalışmalarımız - Kullandığımız Verisetleri vs.](https://drive.google.com/drive/folders/1X3c-B45axihDZk2yJXXMznwrlFzItf7Y?usp=share_link)
+
+[Proje Teslimi Belgeleri](https://drive.google.com/drive/folders/1w8hs1u8qykBe4tHFS2vdeULBTT85oRkS?usp=share_link)
+
 ## Veri Seti Kaynaklar:
+
 
 1- en yaygın kullanılan mermer veri setlerinden biri: [marble-surface-anomaly-detection](https://www.kaggle.com/datasets/wardaddy24/marble-surface-anomaly-detection)
 
