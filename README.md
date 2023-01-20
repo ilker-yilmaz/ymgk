@@ -7,7 +7,9 @@
 
 ## Ekip Toplantıları
 [Toplantı 1 - youtube'da izle](https://www.youtube.com/watch?v=plbYwBUFs0Q)
+
 [Toplantı 2 - youtube'da izle](https://www.youtube.com/watch?v=xsiPq5BoaaI)
+
 [Toplantı 3 - youtube'da izle]()
 
 ## Paylaşılan Belgeler - Dokümanlar
