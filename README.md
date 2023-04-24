@@ -10,7 +10,7 @@
 
 [Toplantı 2 - youtube'da izle](https://www.youtube.com/watch?v=xsiPq5BoaaI)
 
-[Toplantı 3 - youtube'da izle]()
+[Toplantı 3 - youtube'da izle](https://youtu.be/fvtxjRUiJGg)
 
 ## Paylaşılan Belgeler - Dokümanlar
 [Colab Üzerindeki Çalışmalarımız - Kullandığımız Verisetleri vs.](https://drive.google.com/drive/folders/1X3c-B45axihDZk2yJXXMznwrlFzItf7Y?usp=share_link)
